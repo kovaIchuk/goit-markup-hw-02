@@ -1,4 +1,125 @@
 body
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.nav-menu span{
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contacts span{
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+.contacts span:hover {
+    color: #2196F3;
+}
+.nav-menu span:hover {
+    color: #2196F3;
+}
+.hero{
+    background-color: #2F303A;
+   
+}
+.hero h1{
+    color: white;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Buttons/**/
+.button-order-service{
+   background-color: #2196F3;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+.portfolio-button{
+    background-color: #F5F4FA;
+    color: #212121;
+    border: none;
+}
+.portfolio-button:hover{
+    background-color: #2196F3;
+     color: white;
+     cursor: pointer;
+     border: none;
+}
+.portfolio-button:focus{
+    background-color: #2196F3;
+     color: white;
+     border: none;
+}
+
+
+.our-advantages h3{
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.our-advantages p{
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+}
+.what-we-do h2{ 
+    color: #212121;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.our-team{
+    background-color: #F5F4FA;
+}
+.our-team h2{
+    color: #212121;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.our-team h3{
+    color: #212121;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+
+}
+.our-team p{
+    color: #757575;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer-contacts p {
+    color: white;
+}
+.footer-contacts span{ 
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+.result-choise h3{
+    color: #212121;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.result-choise p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
