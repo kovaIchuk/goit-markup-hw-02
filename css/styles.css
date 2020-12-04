@@ -23,6 +23,9 @@
   li {
     list-style-type: none;
   }
+  button{
+    font-family: "Roboto", sans-serif;
+  }
   /*================STUDIO=================*/
   /*Верхняя линия */
   .logo {
@@ -75,11 +78,12 @@
   .button-order-service {
     background-color: var(--accent-color);
     color: var(--second-color);
-    font-size: 16px;
-    font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
     border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
     text-align: center;
   }
   /*Особенности*/
@@ -146,11 +150,13 @@
   .portfolio-button {
     background-color: var(--button-background);
     color: var(--basic-color);
-    font-size: 16px;
-    font-weight: 500;
     line-height: 1.63;
     border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
     text-align: center;
+    letter-spacing: 0.03em;
   }
   .portfolio-button:hover,
   .portfolio-button:focus {
